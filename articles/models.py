@@ -35,3 +35,6 @@ class ExternalLink(models.Model):
 
 class Document(models.Model):
     owner = models.ForeignKey(Profil, on_delete=models.CASCADE)
+
+class KeyWords(models.Model):
+    pass
