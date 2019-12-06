@@ -2,9 +2,67 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Gère tes Docs</title>
+    <meta name="author" content="Les Bionymphos <3">
+    <meta name="description" content="Rassemblement de toutes les instances permettant d'aider les étudiants en difficultés">
+
 </head>
 <body>
+    <h1 id="site_title">Gère tes Docs</h1>
+    <nav id="rubric_menu">
+        <form action="">
+            <select name="rubric">
+                <option value="Aide au logement">Aide au logement</option>
+                <option value="Transports">Transports</option>
+                <option value="Aide handicap">Aide handicap</option>
+                <option value="Aide financière">Aide financière</option>
+                <option value="Autre">Autre</option>
+            </select>
+        </form>
+    </nav>
+    <section id="identification">
+        <form action="/action_page.php">
+            <fieldset>Connexion<br>
+                Nom:
+                <input name="firstname" type="text"><br>
+                Mot de passe:
+                <input name="password" type="text">
+                <br><br>
+                <input type="submit">
+            </fieldset>
+        </form>
+    </section>
+    <section id="bon_a_savoir">
+
+    </section>
+    <div id="ressources">
+        <ul>
+            <li id="ressource_accueil">
+                <a href="">Accueil</a>
+            </li>
+            <li id="ressource_inscription">
+                <a href="">Inscription</a>
+            </li>
+            <li id="ressource_connexion">
+                <a href="">Connexion</a>
+            </li>
+            <li id="ressource_FAQ">
+                <a href="">FAQ</a>
+            </li>
+            <li id="ressource_liens_utiles">
+                <a href="">Liens utiles</a>
+            </li>
+            <li id="ressource_mentions_legales">
+                <a href="">Mentions légales</a>
+            </li>
+            <li id="ressource_info_donn_perso">
+                <a href="">Informations sur les données personnelles</a>
+            </li>
+            <li id="ressource_assistance">
+                <a href="">Assistance</a>
+            </li>
+        </ul>
+    </div>
 {% block content %}
 
 {% endblock %}
